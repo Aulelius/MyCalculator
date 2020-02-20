@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main8"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="org.techtown.myfirstapplication.Calculate4Activity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/number10"
+        android:gravity="end"
+        android:inputType="number"
+        android:hint="취득당시 기준시가"
+        android:maxLength="25"/>
+
+    <Button
+        android:id="@+id/calculateButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="환산취득가액을 적용할때의 필요경비 계산하기"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/result8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textSize="18dp" />
+
+</LinearLayout>

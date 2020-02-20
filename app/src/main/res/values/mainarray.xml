@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MainArray">
+     <item>환산취득가액 계산</item>
+     <item>취득당시 기준시가(90년 이후)</item>
+     <item>취득당시 기준시가(90년 이전)</item>
+     <item>개별 공시지가 조회</item>
+     <item>표준 공시지가 조회</item>
+     <item>환산취득가액에 필요한 경비</item>
+    </string-array>
+</resources>

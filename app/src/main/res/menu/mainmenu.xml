@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <Item
+      android:id="@+id/menu"
+      android:title="환산취득가액계산기" />
+
+    <Item
+        android:id="@+id/menu1"
+        android:title="환산취득가액계산기" />
+
+    <Item
+        android:id="@+id/menu2"
+        android:title="취득당시기준시가(1990년이후)" />
+
+    <Item
+        android:id="@+id/menu3"
+        android:title="취득당시기준시가(1990년이전)" />
+</menu>

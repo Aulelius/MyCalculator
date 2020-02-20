@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.techtown.myfirstapplication.Calculate3Activity">
+
+    <EditText
+        android:id="@+id/number6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="end"
+        android:hint="1990.1.1 기준공시지가"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/number7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="end"
+        android:hint="취득당시의 토지등급가액"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/number8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="end"
+        android:hint="1990.08.30 토지등급가액"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/number9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="end"
+        android:hint="그 직전에 결정된 토지등급가액"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calculateButton3"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="취득당시 기준시가(19900829 이전)  계산하기"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:id="@+id/result3"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:textSize="18dp"
+        android:gravity="end"/>
+
+</LinearLayout>

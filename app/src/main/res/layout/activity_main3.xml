@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="org.techtown.myfirstapplication.Calculate2Activity">
+
+    <EditText
+        android:id="@+id/number4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:inputType="number"
+        android:hint="양도(취득)당시 개별공시지가(㎡당 가액)"
+         />
+
+    <EditText
+        android:id="@+id/number5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:inputType="number"
+        android:hint="양도(취득)면적(㎡)"
+         />
+
+    <Button
+        android:id="@+id/calculateButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="취득당시 기준시가(19900830 이후) 계산하기"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:id="@+id/result2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textSize="18dp"/>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main7"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+
+        <EditText
+            android:id="@+id/edit7"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:hint="필지고유번호를 입력하세요" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="검색"
+            android:textSize="12sp"
+            android:onClick="mOnClick2"
+            android:background="#03DAC6"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+        <TextView
+            android:id="@+id/result7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+</LinearLayout>
